@@ -136,12 +136,15 @@
                     console.error("Please login to CheatNetwork to use this script.");
                 } else {
                     console.error("Failed to retrieve answers. Please check the room code.");
-                    level1();
+                    
+
+                    
                 }
             },
             onerror: () => {
                 console.error("Failed to retrieve answers. Please try again.");
-                level1();
+
+                
             }
         });
     }
